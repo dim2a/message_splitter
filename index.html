@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <title>Text Spliter</title>
+</head>
+<body>
+  <div id="root">
+    <div class="root__input-section">
+      <form class="sticky">
+        <label for="input-text" id="input-text-label">Insert your text:</label><br>
+        <textarea name="input-text" id="input-area" cols="50" rows="10"></textarea><br>
+        <input type="button" value="Split" id="split-btn" disabled>
+        <input type="button" value="Clear" id="clear-btn" disabled>
+      </form>
+    </div>
+    <div id="root__output-section" class="root__output-section"></div>
+  </div>
+  
+  <script src="index.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
